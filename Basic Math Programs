@@ -19,7 +19,7 @@ FIND LAST AND FIRST DIGIT
 import java.util.*;
 import java.lang.*;
 
-public class GfG{
+public class Main{
     public static int firstDigit(int n)
     {
         while (n >= 10){ 
@@ -30,11 +30,9 @@ public class GfG{
 
     public static int lastDigit(int n)
     {
-        // return the last digit
         return (n % 10);
     }
-    
-    // driver function
+
     public static void main(String argc[])
     {
         int n = 98562;
